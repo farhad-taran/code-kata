@@ -9,6 +9,6 @@ describe('app tests', () => {
   it('/ (GET)', () => {
     const res = sut.getHello();
 
-    expect(res).toBe('Hello World!');
+    expect(res).toEqual(['Hello World!']);
   });
 });
